@@ -22,3 +22,8 @@ Systems Work 18
     3. Server connects to client's pipe, sending an ackknowledgement message.
     4. Clients recives server message, and removes (not closes!) its pipe.
     5. Client sends a response message to the server.
+3. Operation
+    - Server and client send data back and forth. Whatever.
+4. Reset
+    1. Client exists, server closes any connections to the client.
+    2. Server creates a new well known pipe and waits for another client.
