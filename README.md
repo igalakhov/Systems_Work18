@@ -19,7 +19,7 @@ Systems Work 18
 2. Handshake
     1. Client connects to server and send the private pipe name. Client then waits for a response from the server.
     2. Server recives client's message and removes (not closes, since a connection will still be mantained) the well known pipe.
-    3. Server connects to client's pipe, sending an ackknowledgement message.
+    3. Server connects to client's pipe, sending an acknowledgement message.
     4. Clients recives server message, and removes (not closes!) its pipe.
     5. Client sends a response message to the server.
 3. Operation
